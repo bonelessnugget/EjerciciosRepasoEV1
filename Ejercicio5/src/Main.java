@@ -17,7 +17,7 @@ public class Main {
 		System.out.println("Introduce la media que quieres sacar: ");
 		media = teclado.nextFloat();
 		resultado = media / ((nota1 * 0.30) * (0.70));
-		Math.floor((resultado*100)/100);
+		Math.flocd
 		System.out.println("La nota del segund examen tiene que ser: " + resultado); 
 
 	}
